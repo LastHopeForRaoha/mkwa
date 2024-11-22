@@ -1,0 +1,71 @@
+/* Badge Management Page */
+.mkwa-icon-upload {
+    margin: 15px 0;
+}
+
+.mkwa-icon-upload .button {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.icon-preview {
+    margin-top: 10px;
+}
+
+.icon-preview img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.badge-list img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    padding: 3px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+/* Notifications */
+.mkwa-notification {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-left: 4px solid #2271b1;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.mkwa-notification.unread {
+    background: #f0f6fc;
+}
+
+/* Badge Preview */
+.badge-preview {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.badge-preview img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Form Styling */
+.form-table td {
+    position: relative;
+}
+
+.form-table .description {
+    font-style: italic;
+    color: #666;
+}
+
+/* Error Messages */
+.mkwa-error {
+    color: #dc3232;
+    font-style: italic;
+}
